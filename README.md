@@ -9,4 +9,4 @@ Do:
 
 Or:
 
-    $ make run CC=clang CFLAGS=-O
+    $ make run CC=clang CFLAGS=-O3
