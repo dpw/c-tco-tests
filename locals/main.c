@@ -16,15 +16,15 @@ static void check(void)
 
 int main(void)
 {
-	printf("%-60s", "accessible_local:");
+	printf("%-60s", "Tail call with exposed local var:");
 	accessible_local();
 	check();
 
-	printf("%-60s", "nested_scope:");
+	printf("%-60s", "Tail call with exposed local var in nested scope:");
 	nested_scope();
 	check();
 
-	printf("%-60s", "with_inline_func:");
+	printf("%-60s", "Tail call with exposed local var in inline function:");
 	with_inline_func();
 	check();
 
